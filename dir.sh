@@ -12,6 +12,7 @@ n=${dir: -1}
 
 n=$((n+1))
 
+PS3="Select a number: "
 echo "You are going to create a file, do you wish to continue?"
 select yn in "Yes" "No"; do
     case $yn in
