@@ -143,11 +143,10 @@ function exec(){
 
 main "$@"
 
-exec 
+exec "$@"
 
 
-#echo "MITObim finished"
- 
+
 
 
 
