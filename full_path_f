@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+# this will save all the files listed to a txt
+
+ls -d -1 "$PWD"/* > samples.txt
+
